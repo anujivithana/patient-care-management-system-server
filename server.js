@@ -5,7 +5,7 @@ const e = require("express");
 const multer = require("multer");
 const upload = multer();
 const mysql = require("mysql");
-
+// server
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
